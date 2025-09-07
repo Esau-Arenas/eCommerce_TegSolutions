@@ -119,9 +119,9 @@ const products = ref<Product[]>([
     title: "ERP Empresarial - TegSolutions",
     price: 15000,
     images: [
-      "/public/img/erp1.png",
-      "/public/img/erp2.png",
-      "/public/img/erp3.png"
+      "/img/erp1.png",
+      "/img/erp2.png",
+      "/img/erp3.png"
     ],
     description:
       "Sistema de planificación de recursos empresariales adaptable a distintas industrias y necesidades organizacionales.",
@@ -154,9 +154,9 @@ const products = ref<Product[]>([
     title: "Desarrollo Web - TegSolutions",
     price: 8000,
     images: [
-      "/public/img/devweb1.png",
-      "/public/img/devweb2.png",
-      "/public/img/devweb3.png"
+      "/img/devweb1.png",
+      "/img/devweb2.png",
+      "/img/devweb3.png"
     ],
     description:
       "Paquetes de servicios que incluyen desde plantillas de diseño hasta soluciones web personalizadas para empresas.",
@@ -189,9 +189,9 @@ const products = ref<Product[]>([
     title: "Apps Móviles - TegSolutions",
     price: 12000,
     images: [
-      "/public/img/app.jpg",
-      "/public/img/app2.png",
-      "/public/img/app3.png"
+      "/img/app.jpg",
+      "/img/app2.png",
+      "/img/app3.png"
     ],
     description:
       "Aplicaciones móviles preconstruidas o personalizables que resuelven necesidades específicas del mercado empresarial.",
