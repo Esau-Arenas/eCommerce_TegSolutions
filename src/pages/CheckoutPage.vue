@@ -7,11 +7,11 @@
       <!-- Datos de envío -->
       <q-card flat bordered class="q-pa-md">
         <q-card-section>
-          <div class="text-h6">Datos de Envío</div>
+          <div class="text-h6">Datos de Cliente</div>
         </q-card-section>
 
-        <q-input filled v-model="name" label="Nombre completo" required />
-        <q-input filled v-model="address" label="Dirección de envío" required />
+        <q-input filled v-model="name" label="Nombre de empresa o persona individual" required />
+        <q-input filled v-model="address" label="Sector" required />
         <q-input filled v-model="phone" label="Teléfono" type="tel" required />
         <q-input filled v-model="email" label="Correo electrónico" type="email" required />
       </q-card>
@@ -96,9 +96,7 @@ function confirmOrder() {
     return;
   }
 
-  alert(`✅ Pedido confirmado para ${name.value}. 
-Total: Q${total.value}. 
-¡Gracias por tu compra! 🛒`);
+  alert(`✅ Tu servicio ha sido solicitado con éxito. Un asesor de TegSolutions se pondrá en contacto en las próximas 24 horas para iniciar el proceso.`);
 
   cart.clearCart();
   void router.push("/"); // Regresa al inicio
