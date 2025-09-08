@@ -38,67 +38,55 @@ import { ref } from "vue";
 
 const faqs = ref([
   {
-    question: "¿Qué métodos de pago aceptan?",
+    question: "¿Qué servicios ofrece TegSolutions?",
     answer: {
-      text: "Aceptamos tarjetas de crédito, débito y pagos en línea. Consulta más detalles en el carrito",
-      link: "/",
-      linkText: "Carrito"
+      text: "Ofrecemos tres soluciones principales: ERP Empresarial, Desarrollo Web a medida y Aplicaciones Móviles."
     }
   },
   {
-    question: "¿Hacen envíos a todo el país?",
+    question: "¿Cuál es el modelo de precios de sus servicios?",
     answer: {
-      text: "Sí, enviamos a nivel nacional. Puedes contactarnos para más información.",
-      link: "/contact",
-      linkText: "Formulario de contacto"
-    }
-  },
-  {
-    question: "¿Puedo devolver un producto si no estoy satisfecho?",
-    answer: {
-      text: "Sí, puedes contactarnos y hacernos llegar tu solicitud de devolución.",
-      link: "/contact",
-      linkText: "Formulario de contacto"
-    }
-  },
-  {
-    question: "¿Cómo puedo contactar con soporte?",
-    answer: {
-      text: "Puedes escribirnos directamente desde el ",
-      link: "/contact",
-      linkText: "Formulario de Contacto"
-    }
-  },
-  {
-    question: "¿Dónde puedo ver la ficha completa de un producto?",
-    answer: {
-      text: "En la sección de ",
+      text: "Dependiendo del servicio, manejamos planes de suscripción, pagos únicos por desarrollo o licenciamiento de software. Puedes consultar más detalles en la sección ",
       link: "/",
       linkText: "Productos"
     }
   },
   {
-    question: "¿Ofrecen descuentos por compras grandes?",
+    question: "¿El ERP puede adaptarse al tamaño de mi empresa?",
     answer: {
-      text: "Sí, ofrecemos precios especiales para compras al por mayor. Solicita más información desde el ",
+      text: "Sí, nuestro ERP está diseñado para adaptarse tanto a pequeñas empresas como a grandes corporaciones."
+    }
+  },
+  {
+    question: "¿Qué incluye el servicio de desarrollo web?",
+    answer: {
+      text: "Incluye diseño responsivo, optimización SEO, integración con bases de datos y personalización total según tus necesidades."
+    }
+  },
+  {
+    question: "¿Las aplicaciones móviles funcionan en Android y iOS?",
+    answer: {
+      text: "Sí, nuestras apps son multiplataforma y funcionan en ambos sistemas operativos."
+    }
+  },
+  {
+    question: "¿Ofrecen soporte técnico después de la entrega?",
+    answer: {
+      text: "Sí, brindamos soporte y mantenimiento para asegurar que tu solución digital siga funcionando sin problemas."
+    }
+  },
+  {
+    question: "¿Puedo solicitar una demostración antes de contratar?",
+    answer: {
+      text: "Claro, puedes ponerte en contacto con nosotros desde el ",
       link: "/contact",
-      linkText: "Formulario de Contacto"
-    }
-  },
-  {
-    question: "¿Cómo sé si un producto está disponible?",
-    answer: {
-      text: "En la página de ",
-      link: "/",
-      linkText: "Productos"
-    }
-  },
-  {
-    question: "¿Puedo recibir notificaciones de nuevas ofertas?",
-    answer: {
-      text: "Sí, puedes ponerte en contacto con nosotros para ",
-      link: "/contac",
       linkText: "Formulario de contacto"
+    }
+  },
+  {
+    question: "¿Realizan proyectos personalizados?",
+    answer: {
+      text: "Sí, todos nuestros servicios se adaptan a las necesidades específicas de cada cliente."
     }
   }
 ]);
